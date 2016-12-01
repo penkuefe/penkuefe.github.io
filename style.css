@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.top {
+	border: 20px black;
+	background: grey;
+	width: 100%;
+	position: fixed;
+	height: 40px;
+}
+
+.sol, .sag {
+	display: inline-block;
+	position: relative;
+}
+
+.top-sag {
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top:10px;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+a: hover {
+	color: purple;
+}
+
+input {
+	width: 400px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	margin-left: 50px;
+  	margin-top: 100px;
+  	margin-bottom: 20px;
+  	border: 1px solid #DDDDDD;
+  	border-radius: 1px
+  	height: 10px;
+  }
+
+img {
+	width: 40px;
+	height: 40px;
+	vertical-align: center;
+}
+
+.Search {
+	display: inline-block;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	margin-left: 50px;
+	border-left: : 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+.one {
+	display: inline-block;
+	border-left: : 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+span {
+	padding-left: 50px;
+}
